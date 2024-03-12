@@ -2,6 +2,13 @@ import './App.css';
 import TodoRowItem from './components/ToDoRowItem';
 
 function App() {
+
+  const todos = [
+    {rowNumber:1 , rowDescription: 'Hello World', rowAssigned: 'Self'},
+    {rowNumber:2 , rowDescription: 'Heelo is good', rowAssigned: 'Self2'}
+  ]
+
+
   return (
     <div className='mt-5 container'>
       <div className="card">
@@ -18,8 +25,8 @@ function App() {
               </tr>
             </thead>
             <tbody>
-              <TodoRowItem />
-              <TodoRowItem />
+              <TodoRowItem rowNumber={todos[0].rowNumber} rowDescription={todos[0].rowDescription} rowAssigned={todos[0].rowAssigned}/>
+              <TodoRowItem rowNumber={todos[1].rowNumber} rowDescription={todos[1].rowDescription} rowAssigned={todos[1].rowAssigned}/>
             </tbody>
           </table>
         </div>
