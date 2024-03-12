@@ -18,11 +18,7 @@ function App() {
               </tr>
             </thead>
             <tbody>
-              <tr>
-                <th scope='row'>1</th>
-                <td>Walk</td>
-                <td>Self</td>
-              </tr>
+              <TodoRowItem />
               <tr>
                 <th scope='row'>2</th>
                 <td>Hair cut</td>
