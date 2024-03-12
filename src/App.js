@@ -6,7 +6,9 @@ function App() {
 
   const todos = [
     { rowNumber: 1, rowDescription: 'Hello World', rowAssigned: 'Self' },
-    { rowNumber: 2, rowDescription: 'Heelo is good', rowAssigned: 'Self2' }
+    { rowNumber: 2, rowDescription: 'Heelo is good', rowAssigned: 'Self2' },
+    { rowNumber: 3, rowDescription: 'Hello ', rowAssigned: 'Self' },
+    { rowNumber: 4, rowDescription: ' World', rowAssigned: 'Self' }
   ]
 
 
